@@ -1,0 +1,28 @@
+<!-- dynamic_extend.html -->
+{% extends "dynamic_base.html" %}
+
+{% block titulo %}Título personalizado{% endblock %}
+
+{% block encabezado %}
+<header>
+<h1>Encabezado personalizado</h1>
+<nav>
+    <ul>
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/acerca">Acerca de</a></li>
+    <li><a href="/contacto">Contacto</a></li>
+    </ul>
+</nav>
+{% endblock %}
+{% block contenido %}
+
+<main>
+    <!-- Contenido personalizado de la página -->
+</main>
+{% endblock %}
+{% block pie_pagina %}
+
+<footer>
+    <p>Pie de página personalizado</p>
+</footer>
+{% endblock %}
